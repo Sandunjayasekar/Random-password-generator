@@ -21,3 +21,8 @@ function createpassword() {
     console.log(password);
 }
 
+function copyPassword() {
+        passwordBox.select();
+        document.execCommand("copy");
+        alert("Password copied to clipboard");
+}
