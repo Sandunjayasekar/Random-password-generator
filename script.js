@@ -21,13 +21,4 @@ function createpassword() {
     console.log(password);
 }
 
-function copyPassword() {
-    if (passwordBox.value == "") {
-        alert("Please generate a password first");
-    }else {
-        passwordBox.select();
-        document.execCommand("copy");
-        alert("Password copied to clipboard");
-    }
-        
-}
+
